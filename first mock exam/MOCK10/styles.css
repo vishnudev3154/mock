@@ -1,0 +1,164 @@
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.nav_head {
+    position: absolute;
+ top: 2px;
+    right: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+ 
+}
+.nav_head ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+.nav_head a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.content {
+  max-width: 600px;
+position: relative;
+  margin: -40px auto 20px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+ font-family: 'Commissioner';
+font-weight: 400, 500, 700;
+
+}
+.bookmark {
+  background: lightgray;
+}
+
+.back {
+  background: hsl(176, 50%, 47%);
+  color: white;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.logo-circle {
+  background: black;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 auto 10px;
+  font-weight: bold;
+}
+
+.intro {
+  text-align: center;
+}
+.stats {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+   
+}
+.stat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.stats div {
+  margin-bottom: 10px;
+}
+
+.bar {
+  background: #ddd;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.fill {
+  background: hsl(176, 50%, 47%);
+  height: 100%;
+  width: 90%;
+}
+.about {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+p{
+font-family: 'Commissioner', 'Arial', sans-serif;
+font-size: 16px;}
+.reward {
+    background: #f5f6fa;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+border: 1px solid rgb(103, 104, 103);
+}
+.reward-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.reward-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.reward-pledge {
+    color: #3cb4ac;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.reward-desc {
+    color: #555;
+    margin-bottom: 16px;
+}
+.reward-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reward-left {
+    color: #3cb4ac;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.btn-select {
+    background: #3cb4ac;
+    color: #fff;
+    border: none;
+    border-radius: 32px;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.btn-select:hover {
+    background: #147b74;
+}
